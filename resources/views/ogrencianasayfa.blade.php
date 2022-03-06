@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style=" background: url({{url('/indir.jpg')}});">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,11 @@
 
 <body>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
+     
+        
+         
    
+
     <div class="container"><br><br><br><br><br><br><br><br>
         
         <div class="row ">
@@ -19,7 +23,7 @@
             </div>
             <div class="col-3">
                 
-                    <button type="submit" class="button" style="background-color: rgb(253, 160, 53);">AMAC <br>ONEM <br>KAPSAM</button>
+                    <button id="amac" type="submit" class="button" style="background-color: rgb(253, 160, 53);">AMAC <br>ONEM <br>KAPSAM</button>
             </div>
             <div class="col-2">
                     <button type="submit" class="button" style="background-color: rgb(255, 41, 13);">METARYEL <br>YONTEM <br>ARASTIRMA OLANAKLARI</button>
@@ -49,6 +53,7 @@
          </div>
             <div class="col"></div>
         </div>
+     
     
 </body>
 
