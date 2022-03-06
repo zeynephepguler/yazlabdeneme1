@@ -1,51 +1,39 @@
+.tbutton{
+    width: 200px;
+    height: 200px;
+    border: 0ch;
+    box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.205);
+    border-radius: 1%;
+    
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 15%;
-    background-color: #f1f1f1;
-    position: absolute;
-    height: 100%;
-    overflow: auto;
+}
+.tbutton:active{
+    background-color: rgb(10, 10, 10);
+}
+.tbutton:hover{
+    background-color: rgb(19, 18, 16);
+}
+.bosluk{
+    width: 100px;
 }
 
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
+.girdi{
+    width: 200px;
+    height: 50px;    
+    border: 0ch;
+    box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.205);   
+}
+.girdi:focus{
+    outline:none;
+    border: 1px solid #eee;
+    border-left: 3px solid #3e8e41;
+  }
+  
+.ibuton{
+    
     width: 150px;
-    height: auto;
-    background-color: rgb(197, 197, 197);
-    border-radius: 15%;
-    padding: auto;
-    border-color: beige;
-    box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.404);
-}
-ul li ul {
-    background-color:#2c3e50;
-    display:none;
-    position:absolute;
-    width:100%;
-    height: auto;
-    margin: 0;
+    height: 50px;
+    border: 0ch;
+    box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.205);    
 
-}
-
-ul li:hover ul{
-    display:block;
-}
-li ul li {
-    display:block;
-}
-
-li a.active {
-    background-color: #4CAF50;
-  color: white;
-}
-
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
 }
